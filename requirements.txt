@@ -1,0 +1,28 @@
+fastapi
+uvicorn
+streamlit
+requests
+pydantic
+python-dotenv
+
+# Retrieval and vector storage
+fastembed
+qdrant-client
+sentence-transformers
+
+# LlamaIndex integrations
+llama-index
+llama-index-embeddings-fastembed
+llama-index-embeddings-huggingface
+llama-index-llms-gemini
+llama-index-llms-ollama
+llama-index-vector-stores-qdrant
+
+# Document processing and evaluation
+docling
+datasets
+ragas
+langchain
+langchain-community
+langchain-ollama
+tiktoken

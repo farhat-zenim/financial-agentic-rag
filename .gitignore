@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments and local configuration
+.venv/
+venv/
+env/
+.env
+!.env.example
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Generated document and vector-store artifacts
+storage/*
+!storage/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+data/processed/qdrant_storage/
+data/processed/embeddings/
+data/benchmarks/results/
+data/raw_pdfs/pdfs/*.pdf
+parsed_docs/*
+!parsed_docs/.gitkeep
+
+# Local logs and test output
+*.log
+htmlcov/
+.coverage
+coverage.xml
+
+# Docker overrides and local build output
+docker-compose.override.yml
+dist/
+build/
